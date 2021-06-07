@@ -1,0 +1,185 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Righteous', cursive;
+}
+@media(min-width: 414px){
+    header{
+        width: 100%;
+        height: 50px;
+        background-color: 003566 ;
+        border-bottom: #D8DCD6 2px solid;
+    }
+    .menu a{
+        color: ffd60a;
+        text-decoration: none;
+
+    }
+    .menu{
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: space-around;
+        list-style: none;
+        align-items: center;
+    }
+    .logoBoca{
+        width: 70px;
+        height: 48px;
+    }
+    .navContent{
+        display: flex;
+        justify-content: space-between;
+    }
+    .Noticias{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: ffd60a;
+    }
+    .cuadroNoticias{
+        width: 200px;
+        height: 300px;
+        border: 1px solid #0C1793;
+        margin-top: 15px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        text-align: center;
+        box-sizing: border-box;
+    }
+    .imagenesNoticias{
+        width:200px ;
+        height: auto;
+    }
+    .Noticias div h1{
+        font-family: 'Archivo', sans-serif;
+        font-weight: 900;
+        text-decoration: underline;
+    }
+    .Servicios{
+        width: 100%;
+        height: auto;
+        background-color: ffd60a;
+        padding-top: 25px;
+    }
+    .Servicios h1{
+        color: #0C1793;
+        padding: 15px;
+        text-decoration: underline;
+    }
+    .sevicioContent{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .textoSocio{
+    width: 300px;
+    height: auto;
+}
+.video{
+    width: 300px;
+    height: auto;
+}
+.Contacto{
+    width: 100%;
+    height: 52px;
+    background-color: 003566 ;
+    border-top: #D8DCD6 2px solid;
+}
+.contactoContent{
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    text-align: center;
+
+}
+.logoBocaFooter{
+    width: 70px;
+    height: 48px;
+}
+.logoRedes{
+    width: 60px;
+    height: 48px;
+}
+
+}
+@media(min-width:768px){
+    .Noticias{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        background-color: ffd60a;
+    }
+    .cuadroNoticias{
+        width: 250px;
+        height: 300px;
+    }
+    .imagenesNoticias{
+        width: 248px ;
+        height: auto;
+    }
+    .video{
+        width: 600px;
+        height: 300px;
+    }
+    .logoRedes{
+        padding-left: 60px;
+    }
+}
+@media(min-width:1200px){
+    header{
+        width: 100%;
+        height: 100px;
+    }
+.navContent{
+    padding-top: 25px;
+}
+    .menu a{
+        font-size: 30px;
+
+    }
+    .cuadroNoticias{
+        width: 360px;
+        height: 360px;
+    }
+    .imagenesNoticias{
+        width: 358px ;
+        height: 200px;
+    }
+    .cuadroNoticias p{
+        font-size: 20px;
+    }
+    .Noticias div h1{
+        font-size: 30px;
+    }
+    .sevicioContent h1{
+        font-size: 35px;
+    }
+    .video{
+        width: 900px;
+        height: 400px;
+    }
+    .textoSocio{
+        width: 900px;
+        height: auto;
+        text-align: center;
+        font-size: 25px;
+    }
+    .Contacto{
+        height: 100px;
+    }
+    .logoRedes{
+            width: 100px;
+            height: auto;
+    }
+    .logoBocaFooter{
+        width: 150px;
+        height: 100px;
+    }
+
+}
